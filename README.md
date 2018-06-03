@@ -16,6 +16,18 @@ Using scss and routing
 ```
 Run server and open it in browser after building
 
+## Create Component
+
+```javascript
+  ng generate component component_name
+```
+
+Shortcut
+
+```javascript
+  ng g c component_name
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
