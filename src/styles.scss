@@ -49,3 +49,17 @@ body {
     }
   }
 }
+
+.usersback {
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 2px solid #4b1d1d;
+  color: #4b1d1d;
+  border-radius: 5px;
+}
+
+.usersback:hover {
+  background: #4b1d1d;
+  color: #fff;
+}
