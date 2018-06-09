@@ -3,7 +3,7 @@
 <br>
 <h1>Posts</h1>
 
-<ul>
+<ul [@listStagger]="posts$">
   <li *ngFor="let post of posts$">
     <h3><strong>{{post.id}}. </strong>{{post.title}}</h3>
     <p>{{post.body}}</p>

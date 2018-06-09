@@ -2,13 +2,14 @@
 <br>
 <br>
 <hr>
-<h1>{{user$.name}}</h1>
-<ul>
-  <li><strong>Username: </strong>{{user$.username}}</li>
-  <li><strong>Email: </strong>{{user$.email}}</li>
-  <li><strong>Phone: </strong>{{user$.phone}}</li>
-</ul>
-
+<div *ngIf="user$">
+  <h1>{{user$.name}}</h1>
+  <ul>
+    <li><strong>Username: </strong>{{user$.username}}</li>
+    <li><strong>Email: </strong>{{user$.email}}</li>
+    <li><strong>Phone: </strong>{{user$.phone}}</li>
+  </ul>
+</div>
 <br>
 <br>
 <hr>
